@@ -1,0 +1,171 @@
+.local-main-cover {
+    background-image: url("Assets_newsletter/banner-and-color-strips.png");
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+    position: relative;
+    overflow: visible;
+    padding: 0;
+    background-size: 100% 100%;
+    height: 500px;
+}
+
+.local-main-cover .local-inside-container {
+    position: absolute;
+    bottom: 80px;
+}
+
+.local-main-cover .local-inside-container h2 {
+    line-height: 1.4;
+    color: #fff;
+    letter-spacing: 1px;
+    margin: 0;
+}
+
+.local-main-cover .local-inside-container a:last-child {
+    margin-left: 40px;
+}
+
+.local-main-cover .local-inside-container a:last-child:hover {
+    color: transparent;
+    background: 0;
+}
+
+.local-phone-container img {
+    position: absolute;
+    bottom: -200px;
+    z-index: 10;
+    left: 0;
+}
+
+.local-labels {
+    text-align: center;
+}
+
+.local-labels li label {
+    color: #fff;
+    background: #20419a;
+    padding: 15px;
+    border-radius: 25px;
+    margin-bottom: 0;
+    margin: 10px;
+    font-weight: 500;
+}
+
+.local-labels li:nth-child(even) label {
+    color: #000;
+    background: #fbb724;
+    padding: 15px;
+    border-radius: 25px;
+    margin-bottom: 0;
+    margin: 10px;
+    font-weight: 500;
+}
+
+.local-containers-img {
+    margin-top: 80px;
+}
+
+.local-containers-img > .row div h4 {
+    color: #20419a;
+}
+
+.local-containers-img > .row div p {
+    margin: 5px 15px;
+    color: #666;
+}
+
+.local-footer {
+    text-align: center;
+    margin-top: 30px;
+    background: #20419a;
+    color: #fff;
+    padding: 15px;
+}
+
+.local-footer div h5 {
+    margin: 5px;
+    color: #fbb724;
+}
+
+.local-footer div h4 {
+    margin-bottom: 15px;
+}
+
+@media only screen and (min-device-width: 600px) and (max-device-width: 768px) {
+    .local-phone-container img {
+        bottom: -100px;
+        width: 150px;
+    }
+    .local-main-cover .local-inside-container h2 {
+        font-size: 24px;
+    }
+    .local-main-cover .local-inside-container a img {
+        width: 120px;
+    }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 445px) {
+    .local-main-cover {
+        height: 300px;
+    }
+    .local-main-cover .local-inside-container {
+        bottom: 45px;
+    }
+    .local-main-cover .local-inside-container > .row {
+        text-align: center;
+    }
+    .local-main-cover .local-inside-container h2 {
+        font-size: 12px;
+    }
+    .local-main-cover .local-inside-container a img {
+        width: 70px;
+    }
+    .local-main-cover .local-inside-container a:last-child {
+        margin-left: 0px;
+    }
+    .local-phone-container img {
+        bottom: -80px;
+        width: 110px;
+    }
+    .local-labels {
+        text-align: center;
+    }
+    .local-labels li label {
+        padding: 10px;
+        margin: 5px;
+        font-size: 10px;
+        width: 100px;
+    }
+    .local-labels li:nth-child(even) label {
+        padding: 10px;
+        margin: 5px;
+        font-size: 10px;
+        width: 100px;
+    }
+    .local-containers-img {
+        margin-top: 30px;
+    }
+    .local-containers-img > .row div {
+        margin-bottom: 15px;
+    }
+    .local-containers-img > .row div h4 {
+        color: #20419a;
+    }
+    .local-containers-img > .row div p {
+        margin: 5px 15px;
+        color: #666;
+    }
+    .local-footer {
+        text-align: center;
+        margin-top: 30px;
+        background: #20419a;
+        color: #fff;
+        padding: 15px;
+    }
+    .local-footer div h5 {
+        font-size: 12px;
+    }
+    .local-footer div h4 {
+        font-size: 14px;
+    }
+}
